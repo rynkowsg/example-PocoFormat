@@ -18,3 +18,6 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11 -O3")
 # https://github.com/ruslo/hunter/wiki/pkg.pococpp
 hunter_add_package(PocoCpp)
 find_package(Poco REQUIRED Foundation CONFIG)
+
+# Subdirectories
+add_subdirectory(example)
